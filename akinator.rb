@@ -23,6 +23,7 @@ system ("clear")
 puts nombre + " El akinator es un programa que adivina en que animal estas pensando siempre y cuando este entre los 10 ya mencionados.
 	Consiste en una serie de preguntas en las cuales debes responder con si (s) o no (n)."
 gets
+system ("clear")
 while true
 	puts "\t" + nombre + " El animal en q estas pensando ¿tiene cuatro patas?"
 	respuesta = gets.chomp.downcase
